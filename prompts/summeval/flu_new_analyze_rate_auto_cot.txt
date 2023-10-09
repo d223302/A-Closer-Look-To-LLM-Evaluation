@@ -1,0 +1,31 @@
+You will be given one summary written for a news article.
+
+Your task is to rate the summary on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Criteria:
+
+Fluency (1-5): This rating measures the quality of individual sentences, are they well-written and grammatically correct. Consider the quality of individual sentences. 
+
+Evaluation steps:
+
+1. Read the given summary.
+2. Evaluate the fluency of the summary on a scale of 1-5 based on the criteria provided.
+3. Provide the rating.
+
+Example:
+
+Source Text:
+
+{{Document}}
+
+Summary:
+
+{{Summary}}
+
+
+Evaluation Form (Answer by starting with "Analysis:" to analyze the given example regarding the evaluation criteria as concise as possible, and then give the numeric rating on the next line by "Rating:):
+
+- Fluency:

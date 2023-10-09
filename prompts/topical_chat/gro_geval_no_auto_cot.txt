@@ -1,0 +1,31 @@
+You will be given a conversation between two individuals. You will then be given one potential response for the next turn in the conversation. The response concerns an interesting fact, which will be provided as well.
+
+Your task is to rate the responses on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Crieteria:
+
+Groundedness (0-1) given the fact that this response is conditioned on, determine whether this response uses that fact.
+- A score of 0 (no) means the response does not mention or refer to the fact at all 
+- A score of 1 (yes) means the response uses the fact well 
+
+
+Example:
+
+Conversation History:
+
+{{Document}}
+
+Corresponding Fact:
+
+{{Fact}}
+
+Response:
+
+{{Response}}
+
+
+Evaluation Form (scores ONLY):
+- Groundedness:

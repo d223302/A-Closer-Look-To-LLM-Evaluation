@@ -1,0 +1,25 @@
+You will be given one summary written for a news article.
+
+Your task is to rate the summary on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Relevance (1-5) - selection of important content from the source. The summary should include only important information from the source document. Annotators were instructed to penalize summaries which contained redundancies and excess information.
+
+
+
+Example:
+
+
+Source Text:
+
+{{Document}}
+
+Summary:
+
+{{Summary}}
+
+
+Question: On a scale of 1-5, with 1 being the lowest, is the summary relevant to the source document and does the summary only contain the important information of the source document? 

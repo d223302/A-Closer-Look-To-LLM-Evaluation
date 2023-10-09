@@ -1,0 +1,32 @@
+You will be given a conversation between two individuals. You will then be given one potential response for the next turn in the conversation. The response concerns an interesting fact, which will be provided as well.
+
+Your task is to rate the responses on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Crieteria:
+
+Coherence (1-3) Does the response serve as a valid continuation of the conversation history?
+- A score of 1 (no) means that the response drastically changes topic or ignores the conversation history. 
+- A score of 2 (somewhat) means the response refers to the conversation history in a limited capacity (e.g., in a generic way) and shifts the conversation topic. 
+- A score of 3 (yes) means the response is on topic and strongly acknowledges the conversation history. 
+
+
+Example:
+
+Conversation History:
+
+{{Document}}
+
+Corresponding Fact:
+
+{{Fact}}
+
+Response:
+
+{{Response}}
+
+
+Question: 
+Does the response serve as a valid continuation of the conversation history? (On a scale of 1-3, with 1 meaning the response is invalid and 3 meaning the response is coherent)

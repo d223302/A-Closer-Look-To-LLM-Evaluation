@@ -1,0 +1,38 @@
+You will be given a conversation between two individuals. You will then be given one potential response for the next turn in the conversation. The response concerns an interesting fact, which will be provided as well.
+
+Your task is to rate the responses on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Crieteria:
+
+Naturalness (1-3) Is the response naturally written??
+- A score of 1 (bad) means that the response is unnatural. 
+- A score of 2 (ok) means the response is strange, but not entirely unnatural. 
+- A score of 3 (good) means that the response is natural.
+
+Evaluation Steps:
+
+1. Read the conversation between the two individuals.
+2. Read the potential response for the next turn in the conversation.
+3. Evaluate the response based on its naturalness, using the provided criteria.
+4. Assign a rating score of 1, 2, or 3 based on the evaluation.
+
+Example:
+
+Conversation History:
+
+{{Document}}
+
+Corresponding Fact:
+
+{{Fact}}
+
+Response:
+
+{{Response}}
+
+
+Evaluation Form (Answer by starting with "Analysis:" to analyze the given example regarding the evaluation criteria as concise as possible, and then give the numeric rating on the next line by "Rating:):
+- Naturalness:

@@ -4,7 +4,7 @@
 - Our codes are mostly based on the official implementation of [G-Eval](https://github.com/nlpyang/geval).
 
 ## Preparation
-We use a venv for all our experiments, and the packages in this enviroment are listed in `requirement.txt`.
+We use a venv for all our experiments, and the packages in this enviroment are listed in `requirements.txt`.
 Maybe some packages are not required for reproducing our results.
 
 ## Datasets and Prompts
